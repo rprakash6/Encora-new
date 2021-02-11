@@ -1,0 +1,35 @@
+Acceptance criteria 1: Traveller will not travel if he cannot complete the trips in the current work week
+
+Given: The traveller confirms that, he wont be able complete the trips in the current work week
+When: The traveller is prompted about whether he can complete the trips in the current work week 
+Then: The traveller will be informed that the tip has to be completed in the current work week
+
+Acceptance criteria 2: Traveller will not travel without weather update
+
+Given: The weather report is not received from  openweathermap.org
+And: The traveller confirms that,he will be able to complete the trips in the current work week
+When: Traveller wants to know about the waeather status
+Then: The traveller will be prompted that no weather updates are available currently
+
+
+Acceptance criteria 3: Traveller packing clothes for cold conditions
+
+Given: The weather  report is received successfully from  openweathermap.org
+And: The traveller confirms that,he will be able to complete the trips in the current work week
+When: the mercury is below 20 degree Celsius 
+Then: The traveller will be advised on the cold weather conditions before embarking on the trip
+And: Ensure that the Traveller will pack woollens
+
+Acceptance criteria 4: Traveller packing clothes for warm conditions
+
+Given: The weather report is received successfully from  openweathermap.org
+And: The traveller confirms that,he will be able to complete the trips in the current work week
+When: the mercury is above 20 degree Celsius 
+Then: The traveller will be advised on the warm weather conditions before embarking on the trip
+And: Ensure that the Traveller will pack Swimmers
+
+
+
+
+
+
